@@ -1,7 +1,16 @@
-@import "vendor/reset.scss";
+@import "vendors/reset.scss";
+@import "status.scss";
+@import "stats.scss";
+@import "skill.scss";
+@import "description.scss";
 * {
   box-sizing: border-box;
 }
 img {
   max-width: 100%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
 }

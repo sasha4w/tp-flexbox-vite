@@ -1,0 +1,11 @@
+.status {
+  display: flex;
+  flex-direction: column;
+}
+.status__state {
+  font-size: 0.8rem;
+}
+.status__name {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
